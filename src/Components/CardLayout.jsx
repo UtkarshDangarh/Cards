@@ -1,15 +1,6 @@
 import React, { useEffect } from "react";
-import items from "./data";
 
 function CardLayout({ image, ram, name }) {
-  const delItem = (id) => {
-    items.filter((item) => item.id !== id);
-  };
-
-  //   useEffect(() => {
-  //     CardLayout;
-  //   }, [items]);
-
   return (
     <>
       <div className="w-80 rounded-md border shadow-md bg-gray-300">
